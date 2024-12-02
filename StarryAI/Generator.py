@@ -7,7 +7,7 @@ import tqdm
 import time
 from pathlib import Path
 
-KEY = "xjO_36phyS6ZD2SOovLssn9ryGmsBg"
+KEY = "Tx9uJ0qlLtpBw6n-_V3DHZCfKIEQgw"
 datasetFolder = "GoogleDataset/GDatasetSplit"	
 newDatasetFolder = "GoogleDataset/GDatasetSplit"
 GenerationCost = 0.0096

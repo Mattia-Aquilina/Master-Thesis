@@ -5,3 +5,5 @@
 /StarryAI/Dataset
 /StarryAI/DatasetRealfake
 /StarryAI/ResizedDataset
+/GoogleDataset/Checkpoints
+/GoogleDataset/__pycache__
