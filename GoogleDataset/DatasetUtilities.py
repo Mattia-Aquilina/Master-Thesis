@@ -83,5 +83,9 @@ def SplitFolders(dataset):
                 shutil.copy(img, os.path.join(valDs, folder, "fake"))
             i += 1
 
-dataset = "GoogleDataset/GDatasetSplit"
-SplitFolders(dataset)
+dataset = "GoogleDataset/GDatasetSplitlder"
+total = 0
+for root, dirs, files in os.walk(dataset):
+    total += len(files)
+
+print(total)
